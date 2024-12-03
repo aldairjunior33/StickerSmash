@@ -5,14 +5,14 @@ import { Link, Stack } from 'expo-router';
 export default function NotFoundScreen() {
     return (
         <>
-        <Stack.Screen options={{ title: 'oops i did it again'}}/>
-        <view style={styles.container}>
-            <Link href= "/" style={styles.button}>
-                Go back to home screen!
-            </Link>
-        </view>
+            <Stack.Screen options={{ title: 'oops i did it again'}} />
+            <View style={styles.container}>
+                <Link href= "/" style={styles.button}>
+                    Go back to home screen!
+                </Link>
+            </View>
         </>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
